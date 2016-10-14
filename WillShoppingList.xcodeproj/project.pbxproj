@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B27766E71DAE7F840022F69E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B27766E61DAE7F840022F69E /* main.m */; };
+		B27766EA1DAE7F840022F69E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27766E91DAE7F840022F69E /* AppDelegate.m */; };
+		B27766F01DAE7F840022F69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27766EE1DAE7F840022F69E /* Main.storyboard */; };
+		B27766F21DAE7F840022F69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27766F11DAE7F840022F69E /* Assets.xcassets */; };
+		B27766F51DAE7F840022F69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27766F31DAE7F840022F69E /* LaunchScreen.storyboard */; };
+		B27766FE1DAE7FDB0022F69E /* StoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27766FD1DAE7FDB0022F69E /* StoresTableViewController.m */; };
+		B27767081DAE85C00022F69E /* StoreItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27767071DAE85C00022F69E /* StoreItemsTableViewController.m */; };
+		B27767301DAEBEDC0022F69E /* ListofStores.m in Sources */ = {isa = PBXBuildFile; fileRef = B277672F1DAEBEDC0022F69E /* ListofStores.m */; };
+		B27767331DAECE630022F69E /* StoreInputScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27767321DAECE630022F69E /* StoreInputScreenViewController.m */; };
+		B277677F1DB145F10022F69E /* GroceryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B277677E1DB145F10022F69E /* GroceryItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B27766E21DAE7F840022F69E /* WillShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WillShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27766E61DAE7F840022F69E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B27766E81DAE7F840022F69E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WillShoppingList/AppDelegate.h; sourceTree = "<group>"; };
+		B27766E91DAE7F840022F69E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WillShoppingList/AppDelegate.m; sourceTree = "<group>"; };
+		B27766EF1DAE7F840022F69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B27766F11DAE7F840022F69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B27766F41DAE7F840022F69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B27766F61DAE7F840022F69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27766FC1DAE7FDB0022F69E /* StoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoresTableViewController.h; path = ../StoresTableViewController.h; sourceTree = "<group>"; };
+		B27766FD1DAE7FDB0022F69E /* StoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoresTableViewController.m; path = ../StoresTableViewController.m; sourceTree = "<group>"; };
+		B27767061DAE85C00022F69E /* StoreItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreItemsTableViewController.h; sourceTree = "<group>"; };
+		B27767071DAE85C00022F69E /* StoreItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreItemsTableViewController.m; sourceTree = "<group>"; };
+		B277672E1DAEBEDC0022F69E /* ListofStores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListofStores.h; sourceTree = "<group>"; };
+		B277672F1DAEBEDC0022F69E /* ListofStores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListofStores.m; sourceTree = "<group>"; };
+		B27767311DAECE630022F69E /* StoreInputScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreInputScreenViewController.h; sourceTree = "<group>"; };
+		B27767321DAECE630022F69E /* StoreInputScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreInputScreenViewController.m; sourceTree = "<group>"; };
+		B277677D1DB145F10022F69E /* GroceryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryItem.h; sourceTree = "<group>"; };
+		B277677E1DB145F10022F69E /* GroceryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27766DF1DAE7F840022F69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27766D91DAE7F840022F69E = {
+			isa = PBXGroup;
+			children = (
+				B27766E81DAE7F840022F69E /* AppDelegate.h */,
+				B27766E91DAE7F840022F69E /* AppDelegate.m */,
+				B27766E41DAE7F840022F69E /* Main Grocery Store File */,
+				B27766E31DAE7F840022F69E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27766E31DAE7F840022F69E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27766E21DAE7F840022F69E /* WillShoppingList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27766E41DAE7F840022F69E /* Main Grocery Store File */ = {
+			isa = PBXGroup;
+			children = (
+				B27766FC1DAE7FDB0022F69E /* StoresTableViewController.h */,
+				B27766FD1DAE7FDB0022F69E /* StoresTableViewController.m */,
+				B277670A1DAE8BB40022F69E /* Add New Grocery item to Store Files */,
+				B27767021DAE826B0022F69E /* Adding New Grocery Store Files */,
+				B27766EE1DAE7F840022F69E /* Main.storyboard */,
+				B27766F11DAE7F840022F69E /* Assets.xcassets */,
+				B27766F31DAE7F840022F69E /* LaunchScreen.storyboard */,
+				B27766F61DAE7F840022F69E /* Info.plist */,
+				B27766E51DAE7F840022F69E /* Supporting Files */,
+			);
+			name = "Main Grocery Store File";
+			path = WillShoppingList;
+			sourceTree = "<group>";
+		};
+		B27766E51DAE7F840022F69E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27766E61DAE7F840022F69E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27767021DAE826B0022F69E /* Adding New Grocery Store Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Adding New Grocery Store Files";
+			sourceTree = "<group>";
+		};
+		B277670A1DAE8BB40022F69E /* Add New Grocery item to Store Files */ = {
+			isa = PBXGroup;
+			children = (
+				B277672E1DAEBEDC0022F69E /* ListofStores.h */,
+				B277672F1DAEBEDC0022F69E /* ListofStores.m */,
+				B27767061DAE85C00022F69E /* StoreItemsTableViewController.h */,
+				B27767071DAE85C00022F69E /* StoreItemsTableViewController.m */,
+				B27767311DAECE630022F69E /* StoreInputScreenViewController.h */,
+				B27767321DAECE630022F69E /* StoreInputScreenViewController.m */,
+				B277677D1DB145F10022F69E /* GroceryItem.h */,
+				B277677E1DB145F10022F69E /* GroceryItem.m */,
+			);
+			name = "Add New Grocery item to Store Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27766E11DAE7F840022F69E /* WillShoppingList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27766F91DAE7F840022F69E /* Build configuration list for PBXNativeTarget "WillShoppingList" */;
+			buildPhases = (
+				B27766DE1DAE7F840022F69E /* Sources */,
+				B27766DF1DAE7F840022F69E /* Frameworks */,
+				B27766E01DAE7F840022F69E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WillShoppingList;
+			productName = WillShoppingList;
+			productReference = B27766E21DAE7F840022F69E /* WillShoppingList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27766DA1DAE7F840022F69E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Will Garner";
+				TargetAttributes = {
+					B27766E11DAE7F840022F69E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B27766DD1DAE7F840022F69E /* Build configuration list for PBXProject "WillShoppingList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B27766D91DAE7F840022F69E;
+			productRefGroup = B27766E31DAE7F840022F69E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27766E11DAE7F840022F69E /* WillShoppingList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27766E01DAE7F840022F69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27766F51DAE7F840022F69E /* LaunchScreen.storyboard in Resources */,
+				B27766F21DAE7F840022F69E /* Assets.xcassets in Resources */,
+				B27766F01DAE7F840022F69E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27766DE1DAE7F840022F69E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27766FE1DAE7FDB0022F69E /* StoresTableViewController.m in Sources */,
+				B27767081DAE85C00022F69E /* StoreItemsTableViewController.m in Sources */,
+				B277677F1DB145F10022F69E /* GroceryItem.m in Sources */,
+				B27766EA1DAE7F840022F69E /* AppDelegate.m in Sources */,
+				B27767301DAEBEDC0022F69E /* ListofStores.m in Sources */,
+				B27767331DAECE630022F69E /* StoreInputScreenViewController.m in Sources */,
+				B27766E71DAE7F840022F69E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B27766EE1DAE7F840022F69E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27766EF1DAE7F840022F69E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B27766F31DAE7F840022F69E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27766F41DAE7F840022F69E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27766F71DAE7F840022F69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27766F81DAE7F840022F69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27766FA1DAE7F840022F69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WillShoppingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravitystudios.WillShoppingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B27766FB1DAE7F840022F69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WillShoppingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravitystudios.WillShoppingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27766DD1DAE7F840022F69E /* Build configuration list for PBXProject "WillShoppingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27766F71DAE7F840022F69E /* Debug */,
+				B27766F81DAE7F840022F69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27766F91DAE7F840022F69E /* Build configuration list for PBXNativeTarget "WillShoppingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27766FA1DAE7F840022F69E /* Debug */,
+				B27766FB1DAE7F840022F69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B27766DA1DAE7F840022F69E /* Project object */;
+}
